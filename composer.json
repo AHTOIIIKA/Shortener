@@ -1,0 +1,11 @@
+{
+    "name": "test/link-shortener",
+    "require": {
+        "slim/pdo": "~1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shortener\\": "src/"
+        }
+    }
+}
